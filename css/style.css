@@ -1,0 +1,678 @@
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    max-width: 1350px;
+    margin: auto;
+}
+.navbar {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-image: url(../img/1600606744_idman2.jpg);
+    background-size: cover;
+    background-color: #36383b;
+    background-blend-mode: multiply;
+    width: 100%;
+    height: 550px;
+}
+.navbar .navbar1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(63, 55, 63, 0.3);
+}
+.navbar .navbar1 h3 {
+    color: white;
+    margin: auto ;
+    margin-left: 100px;
+    font-size: 24px;
+    letter-spacing: 1.5px;
+    font-weight: 900;
+}
+.navbar .navbar1 h3 span {
+    color: rgb(238, 72, 43);
+}
+.navbar .navbar1 ul {
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+}
+.navbar .navbar1 ul li {
+    list-style: none;
+    margin: auto 14px;
+    color: white;
+    font-size: 12px;
+    transition: all 0.3s ease-in-out;
+}
+.navbar .navbar1 ul li:nth-child(1) {
+    color:rgb(238, 72, 43);
+}
+.navbar .navbar1 ul li:hover {
+    color: rgba(231, 100, 39, 0.932);
+    cursor: pointer;
+}
+.navbar .navbar1 button {
+    height: 40px;
+    margin: auto ;
+    margin-right: 140px;
+    background-color: rgb(236, 91, 55);
+    border: none;
+    color: white;
+}
+.navbar .navbar2 {
+    width: 100%;
+    height: 80%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.navbar .navbar2 h3 {
+    width: 100%;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+    font-size: 16px;
+}
+.navbar .navbar2 h6 {
+    color: white;
+    font-size: 70px;
+    margin: 10px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+    margin-top: -10px;
+}
+.navbar .navbar2 h6 span {
+    color: rgb(238, 72, 43);
+}
+.navbar .navbar2 button {
+    height: 40px;
+    width: 150px;
+    margin: auto ;
+    background-color: rgb(238, 68, 25);
+    border: none;
+    color: white;
+}
+.dastur {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.dastur .studio {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+.dastur .studio h3 {
+    font-size: 26px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+.dastur .studio h3 span {
+    color:rgb(238, 72, 43) ;
+}
+.dastur .studio i {
+    margin-top: -10px;
+    color: rgb(238, 72, 43);
+    font-size: 26px;
+}
+.dastur .studio p {
+    color: rgba(63, 55, 63, 0.719);
+    line-height: 20px;
+}
+.dastur .studio1 {
+    width: 80%;
+    height: 100%;
+    display: grid ;
+    grid-template-columns: 470px 470px;
+    grid-template-rows: 100px 100px 100px;
+    grid-gap:50px 60px;
+    margin: auto;
+    margin-left: 160px;
+    margin-top: 40px;
+}
+.dastur .studio1 .studio2 {
+    display: flex;
+    flex-direction: row;
+}
+.dastur .studio1 .studio2 .icon {
+    width: 100px;
+    height: 100px;
+    background-color:rgb(238, 72, 43) ;
+    border-radius: 5px;
+}
+.dastur .studio1 .studio2 .icon i {
+    position: relative;
+    transform: rotateZ(-45deg);
+    font-size: 35px;
+    margin: 27px;
+    color: white;
+}
+.dastur .studio1 .studio2 .tur {
+    width: 100%;
+    margin-left: 23px;
+    display: flex;
+    flex-direction: column;
+}
+.dastur .studio1 .studio2 .tur h1 {
+    width: 120%;
+    font-size: 24px;
+    margin-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dastur .studio1 .studio2 .tur p {
+    color:rgba(63, 55, 63, 0.719);
+    width: 100%;
+    margin-top: -10px;
+    line-height: 24px;
+}
+.dastur .studio1 .studio2 .tur a {
+    text-decoration: none;
+    font-size: 13px;
+    letter-spacing: .5px;
+    margin-top:-10px;
+    color:rgb(238, 72, 43) ;
+}
+.kurslar {
+    width: 96%;
+    margin: auto;
+    height: 350px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin-top: 200px;
+    background-image: url(../img/Fitness-Titanium-Liulin-8.jpg);
+    background-size:cover;
+    background-color: #36383b;
+    background-blend-mode: multiply;
+}
+.kurslar h3 {
+    font-size: 36px;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    margin-top: 120px;
+}
+.kurslar h3 span {
+    color:rgb(238, 72, 43);
+}
+.kurslar p {
+    text-align: center;
+    color: white;
+    margin-top: -13px;
+    font-size: 17px;
+    letter-spacing: .5px;
+}
+.kurslar button {
+    height: 40px;
+    width: 150px;
+    margin: auto;
+    margin-top: 5px;
+    background-color: rgb(238, 68, 25);
+    border: none;
+    color: white;
+}
+.darslar {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 730px;
+    margin-top: 100px;
+}
+.darslar .boshi {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.darslar .boshi h3 {
+    font-size: 26px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.darslar .boshi h3 span {
+    color:rgb(238, 68, 25) ;
+}
+.darslar .boshi i {
+    margin-top: -10px;
+    color: rgb(238, 72, 43);
+    font-size: 26px;
+    text-align: center;
+}
+.darslar .boshi p {
+    color: rgba(63, 55, 63, 0.719);
+    line-height: 20px;
+    text-align: center;
+}
+.darslar .ikki {
+    width: 80%;
+    height: 130%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin: auto auto;
+}
+.darslar .ikki .kursi {
+    width: 40%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+.darslar .ikki .kursi .box {
+    position: relative;
+    width: 80%;
+    height: 13%;
+    display: flex;
+    flex-direction: row;
+    border: none;
+    border-radius: 3px;
+    margin: 10px auto;
+    box-shadow: 0px 0px 5px #36383ba2;
+    background-color: white;
+    background-color: rgb(255, 254, 253);
+    transition: all 0.3 ease-in-out;
+}
+.darslar .ikki .kursi .box i {
+    position: relative;
+    transform: rotateZ(-45deg);
+    font-size: 25px;
+    margin: auto 25px;
+    color:rgb(238, 72, 43) ;
+}
+.darslar .ikki .kursi .box h3 {
+    text-align: center;
+    margin: auto 10px;
+    letter-spacing: .8px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+}
+.darslar .ikki .kursi .box:hover h3 {
+    color: rgb(238, 72, 43);
+}
+.darslar .ikki .kursi button {
+    border: none;
+    width: 80%;
+    border-radius: 3px;
+    background-color:rgb(238, 72, 43) ;
+    height: 56px;
+    margin-top: 20px;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1.3px;
+    font-weight: 600;
+    margin-left: 41px;
+}
+.darslar .ikki .jadval {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 100%;
+    margin-top: 67px;
+}
+.darslar .ikki .jadval img {
+    width: 100%;
+    height: 45%;
+    object-fit: cover;
+}
+.darslar .ikki .jadval h3 {
+    font-size: 22px;
+    letter-spacing: .4px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.darslar .ikki .jadval p {
+    color: rgba(63, 55, 63, 0.719);
+    line-height: 20px;
+    margin-top: -10px;
+    letter-spacing: .3px;
+}
+.darslar .ikki .jadval button {
+    border: none;
+    width: 25%;
+    background-color:rgb(238, 72, 43) ;
+    height: 34px;
+    margin-top: 20px;
+    color: white;
+    font-size: 13px;
+    letter-spacing: .6px;
+    font-weight: 600;
+}
+.djadval {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin-top: 80px;
+    background-image:url(../img/6-group-workout-classes-that-beat-hitting-the-gym-alone-7.jpg);
+    background-color: #1d242e;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+.djadval h3 {
+    font-size: 22px;
+    color:white;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-top: 60px;
+}
+.djadval h3 span {
+    color: rgb(238, 72, 43);
+}
+.djadval p {
+    text-align: center;
+    color: #c9cfd8;
+    font-size: 15px;
+    letter-spacing: .6px;
+}
+.djadval .kunlar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    left: 0;
+    transform: translateX(32%);
+}
+.djadval .kunlar h2 {
+    color: white;
+    letter-spacing: 1px;
+    font-size: 18px;
+    padding: 3px;
+}
+.djadval table {
+    width: 70%;
+    height: 250%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.djadval table tr {
+    height: 20%;
+}
+.djadval table {
+    border-collapse: collapse;
+}
+.djadval table tr th, .djadval table tr td {
+    border: 1px solid white;
+    color: wheat;
+    text-align: center;
+    letter-spacing: .3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.murabbiy {
+    width: 80%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: auto;
+    margin-top: 50px;
+}
+.murabbiy h6 {
+    font-size: 22px;
+    color:black;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.murabbiy h6 span {
+    color: rgb(238, 72, 43);
+}
+.murabbiy i {
+    text-align: center;
+    color:rgb(238, 72, 43);
+    margin: 0 auto;
+    margin-top:-40px ;
+}
+.murabbiy p {
+    text-align: center;
+    color: #36383b;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    letter-spacing: .6px;
+}
+.murabbiy .murabbiy1 {
+    width: 100%;
+    height: 90%;
+    margin-top: 50px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.murabbiy .murabbiy1 .bolim {
+    width: 30%;
+    height: 100%;
+    margin: 10px;
+    box-shadow: 0px 0px 6px #36383b;
+}
+.murabbiy .murabbiy1 .bolim img {
+    width: 86%;
+    height: 40%;
+    background-size: cover;
+    margin-top: 22px;
+    margin-left: 22px;
+    border-radius: 8px;
+}
+.murabbiy .murabbiy1 .bolim h1 {
+    font-size: 14px;
+    color: rgb(238, 72, 43);
+    margin-left: 22px;
+}
+.murabbiy .murabbiy1 .bolim h2 {
+    font-size: 20px;
+    margin-left: 22px;
+}
+.murabbiy .murabbiy1 .bolim p {
+    margin-left: 24px;
+    text-align: left;
+    letter-spacing: .8px;
+    line-height: 25px;
+}
+.murabbiy .murabbiy1 .bolim .icons {
+    width: 80%;
+    height: 100%;
+    margin-left: 22px;
+}
+.murabbiy .murabbiy1 .bolim .icons i {
+    color: black;
+    margin: 6px;
+}
+.xarita {
+    width: 100%;
+    height: 400px;
+    margin-top: 170px;
+    display: flex;
+    flex-direction: row;
+}
+.xarita iframe {
+    width: 50%;
+    height: 100%;
+}
+.xarita .email {
+    width: 50%;
+    height: 100%;
+    background-image: url(../img/Depositphotos_880586.jpg);
+    background-color: #36383b;
+    background-blend-mode: multiply;
+}
+.xarita .email .emailbox {
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    margin-top: 40px;
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.xarita .email .emailbox .ism {
+    width: 100%;
+    height: 50px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+.xarita .email .emailbox .ism input {
+    width: 40%;
+    height: 40%;
+    margin: 20px;
+}
+.xarita .email .emailbox .ism input:nth-child(2) {
+    margin-right: 60px;
+}
+.xarita .email .emailbox > input:nth-child(2) {
+    width: 85%;
+    height: 7%;
+    margin: 5px auto;
+}
+.xarita .email .emailbox > input:nth-child(3) {
+    width: 85%;
+    height: 30%;
+    margin: 15px auto;
+}
+.xarita .email .emailbox button {
+    width: 25%;
+    height: 35px;
+    margin-top: 15px;
+    margin-left: 34px;
+    background-color:rgb(238, 72, 43);
+    color: white;
+    font-size: 12px;
+    border: none;
+    border-radius: 3px;
+    transform: translateY(-10px);
+}
+@media only screen and (max-width:556px){
+    .navbar .navbar1 h3 {
+        font-size: 16px;
+        margin-left: 18px;
+    }
+    .navbar .navbar1 ul li {
+        font-size: 12px;
+        margin: 5px;
+    }
+    .navbar .navbar1 button {
+        width: 100px;
+        height: 24px;
+        margin-top: 35px;
+        font-size: 10px;
+    }
+    .navbar .navbar2 h3 {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    .navbar .navbar2 h6 {
+        font-size: 55px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .dastur .studio1 {
+        width: 556px;
+        margin-bottom: 100px;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .kurslar {
+        margin-top: 600px;
+    }
+    .kurslar h3 {
+        margin-top: 60px;
+    }
+    .darslar .ikki {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .darslar .ikki .kursi .box {
+        width: 420px;
+        height: 40px;
+        margin: 20px auto;
+    }
+    .darslar .ikki .jadval img {
+        width: 420px;
+    }
+    .darslar .ikki .jadval p {
+        margin-top: 5px;
+    }
+    .djadval {
+        margin-top: 450px;
+    }
+    .djadval .kunlar {
+        width: 500px;
+        margin-left: -115px;
+        
+    }
+    .djadval .kunlar h2 {
+        font-size: 16px;
+    }
+    .murabbiy .murabbiy1 {
+        display: flex;
+        flex-direction: column;
+        height: 700px;
+    }
+    .murabbiy .murabbiy1 .bolim {
+        width: 100%;
+        height: 30%;
+    }
+    .murabbiy .murabbiy1 .bolim img {
+        width: 40%;
+        height: 80%;
+        background-size: cover;
+        margin-top: 10px;
+    }
+    .murabbiy .murabbiy1 .bolim h2 {
+        transform: translate(230px , -200px);
+    }
+    .murabbiy .murabbiy1 .bolim p {
+        transform: translate(200px , -200px);
+        font-size: 14px;
+        text-align: left;
+        line-height: 20px;
+        margin-right: 200px;
+    }
+    .murabbiy .murabbiy1 .bolim .icons {
+        transform: translate(230px , -210px);
+    }
+    .xarita {
+        display: flex;
+        flex-direction: column;
+        width: 550px;
+        margin-top: 400px;
+    }
+    .xarita iframe {
+        width: 100%;
+        height: 300px;
+    }
+    .xarita .email {
+        width: 100%;
+        height: 100%;
+    }
+}
+@media(min-width:1350px){
+    .navbar {
+        width: 1350px;
+    }
+}
+
+
+
+
+
